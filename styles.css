@@ -1,8 +1,42 @@
 /* Universal selector to apply styles to all elements */
-* {
+body {
 /*  margin: 0;
     padding: 0;
     box-sizing: border-box;
      */
-    font: Roboto;
+    font-family: "Roboto";
+    font-style: normal;
+    margin: 0 auto;
+    max-width: 40%;
+    
+}
+
+header {
+    display:flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 1px 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+    flex-grow: 3;
+    padding: 0 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+}
+
+.header-item{
+    flex-grow: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 12px;
+}
+#header-rightmost{
+    padding-right: 50px;
 }
