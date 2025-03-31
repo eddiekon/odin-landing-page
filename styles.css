@@ -40,3 +40,24 @@ header {
 #header-rightmost{
     padding-right: 50px;
 }
+
+.box1 {
+    display:flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 50px;
+}
+#box1-1{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#box1-2{
+    align-self: center;
+    background-color: #becac5;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
