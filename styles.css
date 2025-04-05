@@ -7,15 +7,15 @@ body {
     font-family: "Roboto";
     font-style: normal;
     margin: 0 auto;
-    max-width: 40%;
-    
+    max-width: 55%;
 }
+
 
 header {
     display:flex;
     background-color: #1F2937;
     color: white;
-    padding: 1px 0;
+    padding: 10px 200px;
     align-items: center;
     justify-content: flex-end;
 }
@@ -25,7 +25,6 @@ header {
     font-weight: 700;
     color: #F9FAF8;
     flex-grow: 3;
-    padding: 0 50px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: auto;
@@ -37,27 +36,79 @@ header {
     color: #E5E7EB;
     margin-right: 12px;
 }
-#header-rightmost{
-    padding-right: 50px;
-}
 
 .box1 {
     display:flex;
     background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 30px 50px;
+    padding: 100px 200px;
+    gap: 50px;
 }
 #box1-1{
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 1;
+    flex-direction: column;
+    align-self: stretch;
 }
 #box1-2{
     align-self: center;
-    background-color: #becac5;
-    flex-grow: 1;
-    flex-shrink: 1;
+    background-color: #969797;
+    flex: 1;
+    align-self: stretch;
+    display: grid;
+    place-items: center;
+    color: #E5E7EB;
 }
-.description {
+#hero-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 5px;
+}
+#title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 5px;
+}
+
+.signup-box {
+    background-color: #3382F6;
+    border-radius: 5px;
+    padding: 5px 24px;
+    color: #f9faf8;
+    font-weight: 700;
+    margin-top: 10px;
+    width: 70px;
+    text-align: center;
+}
+
+.box2 {
+    text-align: center;
+    padding: 40px 200px;
+}
+
+.box2-1 {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    gap: 48px;
+}
+.box2-image{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    flex-shrink: 0; 
+}
+.image-box{
+    border: 3px solid #3382F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+}
+#title2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.image-subtext{
+    color:#2c2c2c
 }
