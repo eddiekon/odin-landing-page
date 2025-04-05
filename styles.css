@@ -112,3 +112,24 @@ header {
 .image-subtext{
     color:#2c2c2c
 }
+
+.box3{
+    background-color: #E5E7EB;
+    padding: 40px 350px;
+}
+.box3-1{
+    display: flex;
+    flex-direction: column;
+
+}
+#quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    min-width: 0px;
+    
+}
+#quote-author{
+    align-self: flex-end;
+}
