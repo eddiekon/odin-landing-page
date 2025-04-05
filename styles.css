@@ -133,3 +133,40 @@ header {
 #quote-author{
     align-self: flex-end;
 }
+.box4{
+    padding: 70px 200px;
+}
+.box4-box{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 100px;
+    flex-wrap: wrap;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    flex: 1 0 auto;
+}
+
+.text > *{
+    margin: 1px;
+}
+.action{
+    border: 2px solid #F9FAF8;
+    flex: 0 0 auto;
+    margin-right: 100px;
+}
+
+.footer{
+    background-color: #1F2937;
+    font-size: 15px;
+    color:#969797;
+    text-align: center;
+    padding: 20px 0;
+}
